@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-    title: 'My Site',
+    title: 'Infinity Desktop Docs',
     tagline: 'Dinosaurs are cool',
     favicon: 'img/favicon.ico',
 
@@ -64,9 +64,9 @@ const config: Config = {
         // Replace with your project's social card
         image: 'img/docusaurus-social-card.jpg',
         navbar: {
-            title: 'My Site',
+            title: 'Infinity Desktop Docs',
             logo: {
-                alt: 'My Site Logo',
+                alt: 'Infinity Desktop Docs Logo',
                 src: 'img/logo.svg',
             },
             items: [
@@ -76,9 +76,13 @@ const config: Config = {
                     position: 'left',
                     label: 'Tutorial',
                 },
-                { to: '/blog', label: 'Blog', position: 'left' },
                 {
-                    href: 'https://github.com/facebook/docusaurus',
+                    to: '/blog',
+                    label: 'Blog',
+                    position: 'left',
+                },
+                {
+                    href: 'https://github.com/ashish-zl/infinity-desktop-documentation',
                     label: 'GitHub',
                     position: 'right',
                 },
